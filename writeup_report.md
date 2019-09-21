@@ -24,13 +24,13 @@ The goals / steps of this project are the following:
 [image3]: ./examples/grayscale.PNG "Grayscaling"
 
 
-[image4]: ../data/12504.jpg "Traffic Sign 1"
-[image5]: ../data/12523.jpg "Traffic Sign 2"
-[image6]: ../data/12541.jpg "Traffic Sign 3"
-[image7]: ../data/12549.jpg "Traffic Sign 4"
-[image8]: ../data/12562.jpg "Traffic Sign 5"
+[image4]: ./examples/12504.jpg "Traffic Sign 1"
+[image5]: ./examples/12523.jpg "Traffic Sign 2"
+[image6]: ./examples/12541.jpg "Traffic Sign 3"
+[image7]: ./examples/12549.jpg "Traffic Sign 4"
+[image8]: ./examples/12562.jpg "Traffic Sign 5"
 
-[image8]: ./examples/FeatueMaps.PNG "Featue Maps"
+[image9]: ./examples/FeatueMaps.PNG "Featue Maps"
 
 ## Rubric Points
 ### Here I will consider the [rubric points](https://review.udacity.com/#!/rubrics/481/view) individually and describe how I addressed each point in my implementation.  
@@ -198,4 +198,6 @@ For the fifth image
 #### 1. Discuss the visual output of your trained network's feature maps. What characteristics did the neural network use to make classifications?
 
 ![alt text][image9]
+
+
 As shown in the figure, the first  layer mostly use the sign shape; the second  layer consider both sign shape and the number ; the third and fourth layer considers more detailed characteristics of the image.
